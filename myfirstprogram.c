@@ -188,7 +188,7 @@ int main() {
     }
 
 
-    // EVEN NUMBERS EXAMPLE AGAIN
+    // EVEN NUMBERS IN LOOP EXAMPLE AGAIN
     int illa;
     int rowCount;
 
