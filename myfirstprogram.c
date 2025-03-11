@@ -275,19 +275,19 @@ int main() {
     char thirdInput[20]; // single word input
     char fourthInput[30]; // two words input
 
-    // printf("\nType a number, a character, and your name: ");
-    // scanf("%d %c %s", &firstInput, &secondInput, thirdInput);
-    // printf("\nYour number is %d, your character is %c and your name is %s", firstInput, secondInput, thirdInput);
+    printf("\nType a number, a character, and your name: ");
+    scanf("%d %c %s", &firstInput, &secondInput, thirdInput);
+    printf("\nYour number is %d, your character is %c and your name is %s", firstInput, secondInput, thirdInput);
 
-    // Clear the newline character left by scanf
-    //   while (getchar() != '\n');
+    Clear the newline character left by scanf
+      while (getchar() != '\n');
 
-   // printf("\nYou forgot to tell your full name though: ");
-   // fgets(fourthInput, sizeof(fourthInput), stdin);
+   printf("\nYou forgot to tell your full name though: ");
+   fgets(fourthInput, sizeof(fourthInput), stdin);
 
-    // printf("\nOh, so your name is %s", fourthInput);
+    printf("\nOh, so your name is %s", fourthInput);
 
-    // printf("Memory Address %p", &thirdInput);
+    printf("Memory Address %p", &thirdInput);
 
     // POINTERS
     int ptrVar = 43;
